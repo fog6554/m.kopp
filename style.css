@@ -1,6 +1,13 @@
 #Menu {
   background-color: #555;
-  
+  }
+#Kopp {
+  color: white;
+  font-family: 'Titillium Web', 'verdana', 'Roboto', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
 }
 #menu01 {
   color: white;
@@ -60,7 +67,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.centered4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#NadpisKontakt {
+  color: rgb(0,0,0);
+  font-family: verdana;
+  font-size: 300%;
+}
 @media(min-width: 1080px){
 
   #Nadpis1 {
@@ -71,7 +88,7 @@
 
   .centered {
   position: absolute;
-  top: 55%;
+  top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
@@ -83,7 +100,7 @@
   }
   .centered2 {
   position: absolute;
-  top: 51%;
+  top: 63%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
